@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PieShop.Controllers
 {
-    public class ShoppingCartController
+    public class ShoppingCartController : Controller
     {
         private readonly IPieRepository _pieRepository;
         private readonly ShoppingCart _shoppingCart;
